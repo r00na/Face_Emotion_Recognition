@@ -13,10 +13,10 @@ This project implements a deep learning model for classifying facial expressions
 
 The model is built using several convolutional, batch normalization, max-pooling, and dropout layers for effective feature extraction and overfitting prevention.
 
-Conv2D → BatchNorm → Conv2D → BatchNorm → MaxPooling → Dropout
-Conv2D → BatchNorm → Conv2D → BatchNorm → MaxPooling → Dropout
-Conv2D → BatchNorm → Conv2D → BatchNorm → MaxPooling → Dropout
-Flatten → Dense(256) → Dropout → Dense(7, Softmax)
+* Conv2D → BatchNorm → Conv2D → BatchNorm → MaxPooling → Dropout
+* Conv2D → BatchNorm → Conv2D → BatchNorm → MaxPooling → Dropout
+* Conv2D → BatchNorm → Conv2D → BatchNorm → MaxPooling → Dropout
+* Flatten → Dense(256) → Dropout → Dense(7, Softmax)
 
 
 - Optimizer: Adam
